@@ -1,6 +1,6 @@
 import socket, time, sys
 
-ip = "10.10.25.46"
+ip = "targetIPhere"
 port = 1337
 timeout = 5
 
