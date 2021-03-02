@@ -4,12 +4,12 @@ Mona Configuration
 !mona config -set workingfolder c:\mona\%p
 
 Crash Replication & Controlling EIP
-/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600
-!mona findmsp -distance 600
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600 (Change the -l value to the value that crashed the server)
+!mona findmsp -distance 600 (Change the -l value to the value that crashed the server)
 
 Finding bad characters
 !mona bytearray -b "\x00"
-!mona compare -f C:\mona\oscp\bytearray.bin -a <address>
+!mona compare -f C:\mona\oscp\bytearray.bin -a <address> (Address EIP)
 
 Finding a jump point
 !mona jmp -r esp -cpb "\x00" 
