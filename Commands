@@ -1,11 +1,11 @@
 Commands
 
 Mona Configuration
-!mona config -set workingfolder c:\mona\%p
+!mona config -set workingfolder c:\mona\%p (Configure mona)
 
 Crash Replication & Controlling EIP
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600 (Change the -l value to the value that crashed the server)
-!mona findmsp -distance 600 (Change the -l value to the value that crashed the server)
+!mona findmsp -distance 600 (Change the -l value to the value that crashed the server to find the EIP)
 
 Finding bad characters
 !mona bytearray -b "\x00"
