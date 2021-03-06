@@ -41,7 +41,9 @@ and try to find the badcharacters
 METHOD 1
 \
 Use dump on ESP
-********************
+\
+or
+\
 METHOD 2
 \
 `!mona jmp -r esp -cpb "\x00"`
