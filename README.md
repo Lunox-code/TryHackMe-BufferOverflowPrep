@@ -26,7 +26,7 @@ Then, update the exploit and set the offset variable. to the previews value and 
 \
 `!mona bytearray -b "\x00"`
 \
-the use badcharacter payload
+then use badcharacter payload
 \
 https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/badcharacters.py
 \
@@ -35,6 +35,13 @@ https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/badcharacte
 and try to find the badcharacters
 
 6 - Find a Jump Point
+\
+METHOD 1
+\
+Use dump on ESP
+********************
+\
+METHOD 2
 \
 `!mona jmp -r esp -cpb "\x00"`
 \
