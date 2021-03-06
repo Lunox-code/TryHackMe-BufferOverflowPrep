@@ -41,7 +41,6 @@ METHOD 1
 \
 Use dump on ESP
 ********************
-\
 METHOD 2
 \
 `!mona jmp -r esp -cpb "\x00"`
