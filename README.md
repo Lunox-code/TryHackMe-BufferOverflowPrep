@@ -34,9 +34,10 @@ https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/badcharacte
 \
 and try to find the badcharacters
 
+********************
+
 6 - Find a Jump Point
 \
-********************
 METHOD 1
 \
 Use dump on ESP
