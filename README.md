@@ -5,6 +5,8 @@
 `!mona config -set workingfolder c:\mona\%p` (Configure mona)
 
 2 - Fuzzer payload
+\
+https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/fuzzing.py
 
 3 - Crash Replication & Controlling EIP
 \
@@ -12,7 +14,7 @@
 \
 Then use Exploit payload:
 \
-exploit.py
+https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/exploit.py
 
 4 - Search Offset
 \
@@ -24,9 +26,9 @@ Then, update the exploit and set the offset variable. to the previews value and 
 \
 `!mona bytearray -b "\x00"`
 \
-badcharacter payload
+the use badcharacter payload
 \
-update the payload
+https://github.com/Lunox-code/TryHackMe-BufferOverflowPrep/blob/main/badcharacters.py
 \
 `!mona compare -f C:\mona\oscp\bytearray.bin -a <address>` (Address EIP)
 \
