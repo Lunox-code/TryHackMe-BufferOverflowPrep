@@ -36,6 +36,7 @@ and try to find the badcharacters
 
 6 - Find a Jump Point
 \
+********************
 METHOD 1
 \
 Use dump on ESP
@@ -46,6 +47,7 @@ METHOD 2
 `!mona jmp -r esp -cpb "\x00"`
 \
 Find a jump point (Search de addres to set on the exploit in the part of "retn")
+********************
 
 7 - Prepend NOPs
 \
