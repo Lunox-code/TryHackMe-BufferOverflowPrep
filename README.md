@@ -10,7 +10,9 @@
 \
 `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600` (Change the -l value to the value that crashed the server)
 \
-Exploit payload
+Then use Exploit payload:
+\
+exploit.py
 
 4 - Search Offset
 \
